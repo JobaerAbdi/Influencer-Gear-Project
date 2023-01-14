@@ -6,12 +6,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #f9f5f5;
+}
+header{
+    width: 1300px;
+    margin: 0 auto;
+}
 .nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1300px;
-    margin: 0 auto;
     margin-top: 30px;
 }
 .nav-title{
@@ -27,4 +32,48 @@
     margin-right: 30px;
     font-size: 16px;
     font-weight: 600;
+}
+
+
+.journey-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.journey-text-area{
+    margin-top: 80px;
+}
+.journey-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.btn-journey{
+    width: 170px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #ffff;
+    border-radius: 41px;
+    border: none;
+    margin-top: 20px;
+}
+.img-area{
+    margin-right: 100px;
+}
+.img-area img{
+    background-image: url("../imgs/Circle\ design.svg");
+}
+
+.logo-section{
+    padding: 90px 0;
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo-items{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    margin: 0 80px;
+    border: 1px solid rgb(232, 223, 223);
 }
