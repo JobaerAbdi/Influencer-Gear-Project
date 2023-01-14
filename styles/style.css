@@ -155,3 +155,19 @@ hr{
     margin-top: 20px;
     font-size: 15px;
 }
+.footer-section{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 70px 0;
+}
+.footer-text p{
+    text-align: center;
+    margin: 10px 0;
+}
+.footer-icon i{
+    margin-right: 20px;
+}
