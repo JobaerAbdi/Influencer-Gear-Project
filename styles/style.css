@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #f9f5f5;
+    background-color: #ede9e9;
 }
 header{
     width: 1300px;
@@ -57,7 +57,7 @@ header{
     margin-top: 20px;
 }
 .img-area{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .img-area img{
     background-image: url("../imgs/Circle\ design.svg");
@@ -75,5 +75,58 @@ header{
 }
 hr{
     margin: 0 80px;
-    border: 1px solid rgb(232, 223, 223);
+    border: 1px solid rgb(221, 218, 218);
+}
+
+
+.gallery-section{
+    width: 1020px;
+    margin-left: 230px;
+}
+.gallery-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.gallery-items{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-item{
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.gallery-text h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.gallery-text h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+.filled{
+    color: orange;
+}
+.star-items i{
+    font-size: 10px;
+}
+.star-items span{
+    font-size: 10px;
+}
+.gallery-text h6{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.arrow-style{
+    color: #E02C6D;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-align: end;
 }
