@@ -130,3 +130,28 @@ hr{
     margin-top: 30px;
     text-align: end;
 }
+
+.featured-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 220px;
+}
+
+.text-area h1{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.text-area p{
+    font-weight: bolder;
+    color: gray;
+    margin-top: 10px;
+}
+.btn-site{
+    width: 170px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #ffff;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+}
